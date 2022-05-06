@@ -1,0 +1,11 @@
+---
+- mystudents:
+  - name: anil
+    phone: 5547342
+    address: hyd
+  - name: ravi
+    phone: 63577521
+    address: vijayawda
+  - name: mani
+    phone: 4487405
+    address: guntur
