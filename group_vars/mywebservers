@@ -1,4 +1,4 @@
 ---
-myvar= value
+myvar: value
 mywebpackonubuntu= apache2
-mywebpackonredhat= httpd
+mywebpackonredhat= httpdd
