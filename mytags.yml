@@ -1,20 +1,21 @@
 ---
-- hosts: 172.31.86.219
+- hosts: 172.31.10.250 
   become: yes
   tasks: 
-  - name: install git
+  - name: install git 
     apt:
       name: git
       state: present
-    tag: mygit
-  
+    tags: mygit
+
   - name: install tree
-    apt:
+    apt:  
       name: tree
       state: present
-    tag: mytree
-  - name: install wget
+    tags: mytree
+
+  - name: wget
     apt:
       name: wget
       state: present
-    tag: mywget
+    tags: mywget
