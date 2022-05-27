@@ -1,9 +1,2 @@
 ---
 # tasks file for mytomrole
-- include tasks: adduser.yml
-- include tasks: installjava.yml
-- include tasks: installtomcat.yml
-- include tasks: permissions.yml
-- include tasks: tomcatadminuser.yml
-- include tasks: tomcatservice.yml
-- include tasks: tomcatstart.yml
